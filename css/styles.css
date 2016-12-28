@@ -1,0 +1,88 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  font-family: helvetica, sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #ccc;
+  border-radius: 0;
+  border-width: 1px 0 1px 0;
+  border-color: black;
+}
+
+.navbar-brand {
+  padding-top: 16px;
+}
+
+.navbar-brand h1 { /* Business name */
+  font-family: helvetica, serif;
+  color: #000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+button > .label {
+  color: #888;
+  font-size: 14px;
+  text-align: left;
+  text-transform: uppercase;
+  font-style: italic;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 70px;
+  height: 14px;
+}
+
+button > .icon {
+  float: right;
+}
+
+#collapsable-nav a { /* Collapsed nav menu text */
+  font-size: 1.2em;
+  color: black;
+  border: 1px black;
+}
+
+#collapsable-nav hr {
+  margin: 0;
+}
+
+#nav-list {
+  margin: 0;
+}
+/** MAIN CONTENT **/
+#page-title {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #000;
+  font-family: helvetica, sans-serif;
+  padding-bottom: 8px;
+}
+
+.home-tiles {
+  padding: 0px;
+}
+
+.panels {
+  background-color: #aaa;
+  margin: 10px;
+  padding: 10px;
+}
+
+.panels h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #000;
+  margin: 5px 0 5px 0;
+}
+
+.panels p {
+}
